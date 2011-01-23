@@ -236,3 +236,9 @@ set showmatch " show matching brackets
 
 " print empty <a> tag
 map! ;h <a href=""></a><ESC>5hi
+
+" Make highlight with frequently used keys: shift + arrow keys
+nmap <S-right> v 
+nmap <S-left> v 
+imap <S-right> <esc>v
+imap <S-left> <esc>v
